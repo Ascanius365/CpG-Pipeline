@@ -4,9 +4,9 @@ Dieses Projekt führt eine bioinformatische Analyse von DNA-Methylierungsdaten (
 
 Übersicht des Workflows
 
-Datenvorbereitung & Integration: Laden und Bereinigen von Methylierungsdaten (DLBC.cct, computage_bench_data_GSE131989.parquet) und Metadaten.
+* Datenvorbereitung & Integration: Laden und Bereinigen von Methylierungsdaten (DLBC.cct, computage_bench_data_GSE131989.parquet) und Metadaten.
 
-LIMMA-Analyse: Identifizierung von CpGs, die signifikant mit dem Alter (GSE-Datensatz) und dem Krebs-Status (DLBC-Datensatz) korrelieren.
+* LIMMA-Analyse: Identifizierung von CpGs, die signifikant mit dem Alter (GSE-Datensatz) und dem Krebs-Status (DLBC-Datensatz) korrelieren.
 
 Top-CpG-Auswahl: Auswahl der Top 100 CpGs basierend auf einem kombinierten Effekt (Produkt der Alters-Steigung und des Krebs-Mittelwerts).
 
