@@ -1,0 +1,32 @@
+================================================================================
+Analyse der Stabilität (Varianz Ratio Alt/Jung) und F-Test
+
+Ratio > 1.0 deutet auf Verlust der epigenetischen Stabilität hin (Signifikanz durch F-Test).
+Gen         Varianz Ratio (Alt/Jung)  p-Wert (F-Test) Signifikanz
+C7orf13                  4.603160     5.918914e-10         ***
+  KLF14                  3.568176     1.240019e-07         ***
+C7orf13                  3.023767     2.982506e-06         ***
+  PPM1E                  2.543180     6.211297e-05         ***
+  PPM1E                  1.850597     6.669849e-03          **
+NAPEPLD                  1.643186     2.728316e-02           *
+  KLF14                  1.369047     1.593267e-01
+NAPEPLD                  1.239425     3.374958e-01
+  TTC22                  1.231296     3.527995e-01
+  ASCL2                  0.920465     6.659199e-01
+  TTC22                  0.880581     5.188742e-01
+  ASCL2                  0.810118     2.932854e-01
+  ASCL2                  0.743044     1.396344e-01
+  ASCL2                  0.740944     1.359062e-01
+  ASCL2                  0.614677     1.503666e-02           *
+  RPL23                  0.525298     1.194096e-03          **
+   MAP4                  0.398969     2.739630e-06         ***
+  RPL23                  0.228247     1.220656e-14         ***
+   MAP4                  0.179518     1.794419e-19         ***
+================================================================================
+
+==================================================
+Maßkorrelationskoeffizient (Stärke vs. Stabilität):
+Pearson's r = -0.3117
+p-Wert (Korrelation) = 0.1940
+Interpretation: Negativer r-Wert stützt die Hypothese (wichtige Gene stabiler).
+==================================================
